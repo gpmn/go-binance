@@ -337,9 +337,9 @@ func (as *apiService) UserDataWebsocket(urwr UserDataWebsocketRequest) (chan *Ac
 					return
 				}
 				rawAccount := struct {
-					Type            string  `json:"e"`
-					Time            float64 `json:"E"`
-					OpenTime        float64 `json:"t"`
+					Type string  `json:"e"`
+					Time float64 `json:"E"`
+					//OpenTime        float64 `json:"t"`
 					MakerCommision  int64   `json:"m"`
 					TakerCommision  int64   `json:"t"`
 					BuyerCommision  int64   `json:"b"`
@@ -347,6 +347,7 @@ func (as *apiService) UserDataWebsocket(urwr UserDataWebsocketRequest) (chan *Ac
 					CanTrade        bool    `json:"T"`
 					CanWithdraw     bool    `json:"W"`
 					CanDeposit      bool    `json:"D"`
+					Uptime          float64 `json:"u"`
 					Balances        []struct {
 						Asset            string `json:"a"`
 						AvailableBalance string `json:"f"`
