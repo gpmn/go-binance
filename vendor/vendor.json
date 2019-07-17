@@ -1,0 +1,553 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "3KhDEC5MM0iyN+FsLfxpnvFVeuY=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/davecgh/go-spew/spew",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": "d8f796af33cc11cb798c1aaeb27a4ebc5099927d",
+			"revisionTime": "2018-08-30T19:11:22Z"
+		},
+		{
+			"checksumSHA1": "a2yC46a1qsJomgY6rb+FkTFiqmE=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/davecgh/go-spew/spew/testdata",
+			"path": "github.com/davecgh/go-spew/spew/testdata",
+			"revision": "d8f796af33cc11cb798c1aaeb27a4ebc5099927d",
+			"revisionTime": "2018-08-30T19:11:22Z"
+		},
+		{
+			"checksumSHA1": "Fn02STAdPKudhPZccuLCLWF5xNA=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/auth/basic",
+			"path": "github.com/go-kit/kit/auth/basic",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "fly4hDcaIgOVDpR0PeNJoKzq588=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/auth/jwt",
+			"path": "github.com/go-kit/kit/auth/jwt",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "TpSD7IkULiCclfAlClY8LEHxzlk=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/circuitbreaker",
+			"path": "github.com/go-kit/kit/circuitbreaker",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "eF/JtT9bNNWNmzXrwMcAGUTCPbk=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/endpoint",
+			"path": "github.com/go-kit/kit/endpoint",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "V5aLDeTMZ3UxflLq4y7U7Z6jhbk=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/addsvc/cmd/addcli",
+			"path": "github.com/go-kit/kit/examples/addsvc/cmd/addcli",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "TQu+5aadpfVx7RdVYQNgR+MytQM=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/addsvc/cmd/addsvc",
+			"path": "github.com/go-kit/kit/examples/addsvc/cmd/addsvc",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "CEFNt+vb+jajEc4Guiv3hlfRJt4=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/addsvc/pb",
+			"path": "github.com/go-kit/kit/examples/addsvc/pb",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "CJxWXCu8PqglJWMIhFMiMyg49sc=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addendpoint",
+			"path": "github.com/go-kit/kit/examples/addsvc/pkg/addendpoint",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "f67z6aoSt+DzLLJBhOJ4x9mUU1I=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addservice",
+			"path": "github.com/go-kit/kit/examples/addsvc/pkg/addservice",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "4w0yow30vXXTC8AMVZzq5KtToT0=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addtransport",
+			"path": "github.com/go-kit/kit/examples/addsvc/pkg/addtransport",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "1ERtiuv0GfcH/o0tXzswm1xeFZI=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc",
+			"path": "github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "HDiPrq+Gvvz8vQuuuptvTeghHFQ=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc/add_service-remote",
+			"path": "github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc/add_service-remote",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "Wn4ngQuCYeldIIeka+VLxV/5XMI=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/apigateway",
+			"path": "github.com/go-kit/kit/examples/apigateway",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "ReOJvgMHs0Maf81jIHymw3yPSCI=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/profilesvc",
+			"path": "github.com/go-kit/kit/examples/profilesvc",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "yN23rqqWU3PWxwc47AfTMubTLoU=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/profilesvc/client",
+			"path": "github.com/go-kit/kit/examples/profilesvc/client",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "Z5Q2qcYxcGYsfNFxSDEXv9vSlv8=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/profilesvc/cmd/profilesvc",
+			"path": "github.com/go-kit/kit/examples/profilesvc/cmd/profilesvc",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "BAZrMXcGQ8rnCVs21PaNBm+JFsc=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping",
+			"path": "github.com/go-kit/kit/examples/shipping",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "dAQJi3JaMGPbzWXuzQvMFcqEBwQ=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping/booking",
+			"path": "github.com/go-kit/kit/examples/shipping/booking",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "OCCvsj2lW/J681T3rCS6k3SvQHc=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping/cargo",
+			"path": "github.com/go-kit/kit/examples/shipping/cargo",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "wB077kc871PbEYdk38Ap5nmJlVA=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping/handling",
+			"path": "github.com/go-kit/kit/examples/shipping/handling",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "vohIphoWKW8HPFtK8/pnxxNFS50=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping/inmem",
+			"path": "github.com/go-kit/kit/examples/shipping/inmem",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "/UijcZTiB8g7yJ/jhLBzajPXxD4=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping/inspection",
+			"path": "github.com/go-kit/kit/examples/shipping/inspection",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "T8sd+UnYI8QTKk5qF398Cc69sMg=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping/location",
+			"path": "github.com/go-kit/kit/examples/shipping/location",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "PbdPSVjorZ1cX5cQe473U/Vg78s=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping/routing",
+			"path": "github.com/go-kit/kit/examples/shipping/routing",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "CibMAGSXzUMY/DN1NGm431jBFnw=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping/tracking",
+			"path": "github.com/go-kit/kit/examples/shipping/tracking",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "4tNKSxxBJNwyRnTIZmr2nomC/NM=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/shipping/voyage",
+			"path": "github.com/go-kit/kit/examples/shipping/voyage",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "d5W49XiuE3K4XyOE3MRwpXr+vqE=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/stringsvc1",
+			"path": "github.com/go-kit/kit/examples/stringsvc1",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "vRLe+INONp1FHds+DQ66NKsG+sQ=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/stringsvc2",
+			"path": "github.com/go-kit/kit/examples/stringsvc2",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "kXKZQxMG3IGamkFmM9I2vJpCNtw=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/examples/stringsvc3",
+			"path": "github.com/go-kit/kit/examples/stringsvc3",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "HfWWwyxeDAZdeXMAqNbh49gZhNs=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/log",
+			"path": "github.com/go-kit/kit/log",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "yguD+hfJ9tgdBupY3tre4APJ9aQ=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/log/deprecated_levels",
+			"path": "github.com/go-kit/kit/log/deprecated_levels",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "BTktD/Ii+2jtWnxrqyWBO7dc9C8=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/log/level",
+			"path": "github.com/go-kit/kit/log/level",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "67anI84tpU5eYy1ZlHPSuBMNYXs=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/log/term",
+			"path": "github.com/go-kit/kit/log/term",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "lCL9sFAOLnh24xkiqM7DB4Gs/Kg=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics",
+			"path": "github.com/go-kit/kit/metrics",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "EhvxPEzpjrxJZtyTb4UwTpmYlQc=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/cloudwatch",
+			"path": "github.com/go-kit/kit/metrics/cloudwatch",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "d8fWExWJdnsxbPsPuInREvkTvdE=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/discard",
+			"path": "github.com/go-kit/kit/metrics/discard",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "O3+wCtJbmdM6x/g5cYmJkC+lvo0=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/dogstatsd",
+			"path": "github.com/go-kit/kit/metrics/dogstatsd",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "OLq15mqd+X6b04JWqbkF5PIwErw=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/expvar",
+			"path": "github.com/go-kit/kit/metrics/expvar",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "plhqrwDSkKQMC1xWVJ3fua0bAxs=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/generic",
+			"path": "github.com/go-kit/kit/metrics/generic",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "WSpP+MrAzJLIexxeH8cGDvYaPJc=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/graphite",
+			"path": "github.com/go-kit/kit/metrics/graphite",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "MNMXAPyvVS67yWXSoZylsK9Aw00=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/influx",
+			"path": "github.com/go-kit/kit/metrics/influx",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "DspAXQJLE9zvLsVG+kWucXF7HrQ=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/internal/lv",
+			"path": "github.com/go-kit/kit/metrics/internal/lv",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "t8CEfM4BLNrBUS+rHuQnLxBN0z4=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/internal/ratemap",
+			"path": "github.com/go-kit/kit/metrics/internal/ratemap",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "/CviAueTJj8vuLGfoDlZFFB4b58=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/multi",
+			"path": "github.com/go-kit/kit/metrics/multi",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "4h2ciDo1KLjI4oHCcoPgrwFQXnM=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/pcp",
+			"path": "github.com/go-kit/kit/metrics/pcp",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "G+TpOUYQJmGclmNKJIh5bA4or9Q=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/prometheus",
+			"path": "github.com/go-kit/kit/metrics/prometheus",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "u8Y3jElMDuuN/J67EKcA9fM/FuI=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/provider",
+			"path": "github.com/go-kit/kit/metrics/provider",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "2Jq73ZZpybKBVRy9SBvIh7Q2tKA=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/statsd",
+			"path": "github.com/go-kit/kit/metrics/statsd",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "ySHKUdlsv9TdVBCAqQpmuhHokHw=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/metrics/teststat",
+			"path": "github.com/go-kit/kit/metrics/teststat",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "PBnKHxXlw3yknIBQ5NQE1LrjLug=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/ratelimit",
+			"path": "github.com/go-kit/kit/ratelimit",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "EsKB0OFBN7fRYoOxnvcXtfQTjh8=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/sd",
+			"path": "github.com/go-kit/kit/sd",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "gE5CGD6JSp4DmthZZTWzMywmAqY=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/sd/consul",
+			"path": "github.com/go-kit/kit/sd/consul",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "eTX2X333ysG00n9CqmIxfNr+F9k=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/sd/dnssrv",
+			"path": "github.com/go-kit/kit/sd/dnssrv",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "htdl5zt272e+2f8dyPGFTGUSI4g=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/sd/etcd",
+			"path": "github.com/go-kit/kit/sd/etcd",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "jhsDeKNYg2hdcJCQWcCRxeRoVME=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/sd/eureka",
+			"path": "github.com/go-kit/kit/sd/eureka",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "6GqnK3dOkkVKpq8wGPYznymbTo8=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/sd/internal/instance",
+			"path": "github.com/go-kit/kit/sd/internal/instance",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "rKHF9W16i2jup8uH1Db2Bf9cr10=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/sd/lb",
+			"path": "github.com/go-kit/kit/sd/lb",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "zyABG+e662CmwkTYFAHinT58F0o=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/sd/zk",
+			"path": "github.com/go-kit/kit/sd/zk",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "xKPhIpHz6TD71rSlQNFVAA4wTEA=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/tracing",
+			"path": "github.com/go-kit/kit/tracing",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "WTovP3HAde3woIDMUMHKl9pAStg=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/tracing/opentracing",
+			"path": "github.com/go-kit/kit/tracing/opentracing",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "bc5DvTW9u7pu7SGBfLrEXgEPAp8=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/transport",
+			"path": "github.com/go-kit/kit/transport",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "1/WuMZNhwPAVTLnVAIiPlpF31N4=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/transport/grpc",
+			"path": "github.com/go-kit/kit/transport/grpc",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "l5omNo8ymnscR3ET5X6ZYl2FGyQ=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test",
+			"path": "github.com/go-kit/kit/transport/grpc/_grpc_test",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "Jt4kGFxSrf7k86RdYKygXl78K/A=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test/pb",
+			"path": "github.com/go-kit/kit/transport/grpc/_grpc_test/pb",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "KpOMvA6RwYAn9ZYqrCnlP85WEg8=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/transport/http",
+			"path": "github.com/go-kit/kit/transport/http",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "15Da1szbb8cRthfwKR8dqnvUgfo=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/transport/httprp",
+			"path": "github.com/go-kit/kit/transport/httprp",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "JUoxq60j+mUJXSbhbEMeW1s4T88=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-kit/kit/util/conn",
+			"path": "github.com/go-kit/kit/util/conn",
+			"revision": "e0e1b245b9bab0ee37b2a2d4daaf15ae674c3740",
+			"revisionTime": "2018-11-20T18:57:09Z"
+		},
+		{
+			"checksumSHA1": "Z2SNZR7Hls0ZLNROayCJtI8Hr9c=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-logfmt/logfmt",
+			"path": "github.com/go-logfmt/logfmt",
+			"revision": "07c9b44f60d7ffdfb7d8efe1ad539965737836dc",
+			"revisionTime": "2018-11-22T01:56:15Z"
+		},
+		{
+			"checksumSHA1": "zELlitdI3OUGxjbFS1sCI/KqPDA=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/go-stack/stack",
+			"path": "github.com/go-stack/stack",
+			"revision": "2fee6af1a9795aafbe0253a0cfbdf668e1fb8a9a",
+			"revisionTime": "2018-08-26T13:48:48Z"
+		},
+		{
+			"checksumSHA1": "WudVIcse/eIePD0kmjpAhIjqvUE=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/gorilla/websocket",
+			"path": "github.com/gorilla/websocket",
+			"revision": "7c8e298727d149d7c329b4dec7e94e1932ac5c11",
+			"revisionTime": "2018-12-18T07:24:45Z"
+		},
+		{
+			"checksumSHA1": "06SoGz4q0jZ8UHdj0gNyu4NC+z0=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/gorilla/websocket/examples/autobahn",
+			"path": "github.com/gorilla/websocket/examples/autobahn",
+			"revision": "7c8e298727d149d7c329b4dec7e94e1932ac5c11",
+			"revisionTime": "2018-12-18T07:24:45Z"
+		},
+		{
+			"checksumSHA1": "g0bP5nYlPXJKVQFSzdQjIDzWvKM=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/gorilla/websocket/examples/chat",
+			"path": "github.com/gorilla/websocket/examples/chat",
+			"revision": "7c8e298727d149d7c329b4dec7e94e1932ac5c11",
+			"revisionTime": "2018-12-18T07:24:45Z"
+		},
+		{
+			"checksumSHA1": "6EAcqsMPjzLS71LHEb8ItI4Aies=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/gorilla/websocket/examples/command",
+			"path": "github.com/gorilla/websocket/examples/command",
+			"revision": "7c8e298727d149d7c329b4dec7e94e1932ac5c11",
+			"revisionTime": "2018-12-18T07:24:45Z"
+		},
+		{
+			"checksumSHA1": "fkCvv2iVH7TGAdMx1qXkNGCiq20=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/gorilla/websocket/examples/filewatch",
+			"path": "github.com/gorilla/websocket/examples/filewatch",
+			"revision": "7c8e298727d149d7c329b4dec7e94e1932ac5c11",
+			"revisionTime": "2018-12-18T07:24:45Z"
+		},
+		{
+			"checksumSHA1": "W5XFRMopUjaPHf7px4zRCV2n3iE=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/pkg/errors",
+			"path": "github.com/pkg/errors",
+			"revision": "856c240a51a2bf8fb8269ea7f3f9b046aadde36e",
+			"revisionTime": "2019-02-17T22:52:12Z"
+		},
+		{
+			"checksumSHA1": "4QIV6wLzqcKK18LtKSi0VIi+4s0=",
+			"origin": "github.com/gpmn/go-binance/vendor/github.com/stretchr/objx",
+			"path": "github.com/stretchr/objx",
+			"revision": "ef50b0de28773081167c97fc27cf29a0bf8b8c71",
+			"revisionTime": "2018-08-25T06:49:32Z"
+		}
+	],
+	"rootPath": "github.com/gpmn/go-binance"
+}
